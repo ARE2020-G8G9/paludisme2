@@ -19,11 +19,12 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 **Hypothèse principale :** Il suffit d'éliminer 80% des moustiques pour éradiquer le paludisme.
 
-**Hypothèses secondaires :** 
+**Hypothèses de travail :** La transmission se fait seulement par piqûres et chaque moustique transmet le germe.
 
-**Objectifs :**
+**Objectifs :** Déterminer le pourcentage de moustiques qu’il faut éliminer pour éradiquer le virus.
 
-**Critère(s) d'évaluation :**
+**Critère(s) d'évaluation :** le nombre de moustiques, le nombre d’individus humains porteurs du paludisme 
+
 
 ## Présentation structurée des résultats
 
