@@ -15,9 +15,9 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Description synthétique du projet
 
-**Problématique :** 
+**Problématique :** Peut-on éliminer le paludisme en éliminant une partie de la population des moustiques ?
 
-**Hypothèse principale :**
+**Hypothèse principale :** Il suffit d'éliminer 80% des moustiques pour éradiquer le paludisme.
 
 **Hypothèses secondaires :** 
 
