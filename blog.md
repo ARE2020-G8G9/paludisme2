@@ -13,7 +13,7 @@ Ajout de la fonction natalite_moustique qui permet de calculer le nombre totale 
 Nous avons ajouté les informations restantes à compléter sur le site.
 ### I.LOUZI
 Aprés avoir vu la video explicative et installer git et anaconda. Nous avons réparti les différentes fonctions. Je me suis concentré sur l'esperance de vie du moustique sachant qu'il a une moyenne de vie de 16.4 jours, cette fonction nous permet de connaitre le nombre de moustiques restant après un certain nombre de jours.
-Enin, nous avons ajouté la carte mental des mots clés qui nous ont permis d'avancer sur nos recherches mais aussi les liens des sources utilisés.
+Enfin, nous avons ajouté la carte mental des mots clés qui nous ont permis d'avancer sur nos recherches mais aussi les liens des sources utilisés.
 ### Semaine 3
 ### ...
 
