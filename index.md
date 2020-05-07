@@ -37,6 +37,7 @@ Présentation du choix de modélisation, des outils, du code et des résultats (
 
 **Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a>
 
+![téléchargement](https://user-images.githubusercontent.com/63292006/81241654-6fe38880-8ffa-11ea-84f4-a4599729f50c.png)
 
 [1]	Fiche maladie, " https://www.pasteur.fr/fr/centre-medical/fiches-maladies/paludisme", A l'institut Pasteur, Janvier 2013
 
