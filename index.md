@@ -28,8 +28,9 @@ The goal of our project is to determine the percentage of mosquitoes that must b
 
 ## Présentation structurée des résultats
 
-La modélisation est sous forme de listes. Les programmes sont codés en python. 
+La modélisation est sous forme de listes. Les programmes sont codés en python. 37% moustiques tués Source : J. M. Hougard, « Les moustiquaires imprégnés », Pour la Science, avril 2008, p. 48-52.
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
