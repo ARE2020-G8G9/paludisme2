@@ -5,7 +5,7 @@
 ### Semaine 1
 #### T.RUAN
 Nous avons lu une diaporama concernant l'utilisation de github, puis regarder une vidéo sur comment créer un site pour notre projet. 
-Création du site : https://are2020-g8g9.github.io/paludisme2/ 
+Création du site : https://are2020-g8g9.github.io/paludisme2/.
 Nous avons complété quelques informations que nous connaissons déjà sur le site, puis traduit en anglais.
 
 
