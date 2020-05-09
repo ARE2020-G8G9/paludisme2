@@ -1,9 +1,9 @@
 import random
 import math
-moustiques=10000
-humains=100000
-humainsMalades=1000
-jours=2
+moustiques=100
+humains=1000
+humainsMalades=100
+jours=30
 
 def liste_moustiques_jour (nM,j):
 #liste des jours de naissance de nM moustiques
@@ -113,6 +113,7 @@ def fonction():
     LHE=liste_humains_etat(LHE,humains-humainsMalades,"S")
     LHE=liste_humains_etat(LHE,humainsMalades,"M")
     print(LHE)
+    print("___________________________________________________")
 
     for jour in range (1,jours+1):
 
@@ -155,6 +156,8 @@ def fonction():
                 if (plus_immunise(jour,LHJ[i])):
                     LHE[i]="S"
                     LHJ[i]=jour
+        else:
+            print("ERADIQUER !!!!!!!")
 
     print(LHE)
 
