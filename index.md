@@ -28,7 +28,7 @@ The goal of our project is to determine the percentage of mosquitoes that must b
 
 ## Présentation structurée des résultats
 
-La modélisation est sous forme de listes. Les programmes sont codés en python. 37% moustiques tués Source : J. M. Hougard, « Les moustiquaires imprégnés », Pour la Science, avril 2008, p. 48-52.
+La modélisation est sous forme de listes. Les programmes sont codés en python. Nous savons que si toute la population utilise les insecticides, 37% des moustiques seront tués (Source : J. M. Hougard, « Les moustiquaires imprégnés », Pour la Science, avril 2008, p. 48-52).
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
 
@@ -51,6 +51,8 @@ Présentation du choix de modélisation, des outils, du code et des résultats (
 [5]	Article de magazine," https://animalaxy.fr/un-moustique-peut-il-piquer-plusieurs-fois/", Animalaxy, Clara Zerbib Journalière animalière, 13 aout 2019
 
 [6]	"https://www.who.int/fr/news-room/fact-sheets/detail/malaria", Organisation Mondiale de la Santé, 14 janvier 2020
+
+[7] J. M. Hougard, « Les moustiquaires imprégnés », Pour la Science, avril 2008, p. 48-52
 
 
 
