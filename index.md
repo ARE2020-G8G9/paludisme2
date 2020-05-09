@@ -29,6 +29,7 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 ## Présentation structurée des résultats
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+
 import random
 import math
 moustiques=100
