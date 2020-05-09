@@ -1,8 +1,9 @@
 import random
 import math
-moustiques=100
-humains=10000
-jours=40
+moustiques=10000
+humains=100000
+humainsMalades=1000
+jours=2
 
 def liste_moustiques_jour (nM,j):
 #liste des jours de naissance de nM moustiques
@@ -29,18 +30,14 @@ def liste_humains_jour (nH,j):
         L.append(j)
     return L
 
-def liste_humains_etat (nH,etat):
+def liste_humains_etat (L,nH,etat):
 #liste de nH humains (etat)
 #S (pour Susceptible)
 #M (pour Malade)
 #I (pour Immunisée)
-    L=[]
     for i in range (0,nH):
         L.append(etat)
     return L
-
-def affiche_population ():
-    print(liste_humains_etat(humains,"S"))
 
 def esperance_moustique (jour_de_naissance,j):
     return (jour_de_naissance+19+15==j)
@@ -112,7 +109,11 @@ def fonction():
     LMJ=liste_moustiques_jour(moustiques,1)
     LMA=liste_moustiques_adulte(moustiques)
     LHJ=liste_humains_jour(humains,1)
-    LHE=liste_humains_etat(humains,"S")
+    LHE=[]
+    LHE=liste_humains_etat(LHE,humains-humainsMalades,"S")
+    LHE=liste_humains_etat(LHE,humainsMalades,"M")
+    print(LHE)
+
     for jour in range (1,jours+1):
 
         for i in range (0,len(LMJ)):
@@ -157,5 +158,4 @@ def fonction():
 
     print(LHE)
 
-affiche_population()
 fonction()
