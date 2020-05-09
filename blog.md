@@ -1,6 +1,6 @@
 ## Travail effectué 
 
-=> Description hebdomadaire du travail effectué (variez les auteurs !)
+=> Description hebdomadaire du travail effectué
 
 ### Semaine 1
 ####T.RUAN
