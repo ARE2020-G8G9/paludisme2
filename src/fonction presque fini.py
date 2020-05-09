@@ -1,12 +1,8 @@
 import random
+import math
 moustiques=100
-humains=1000
-Monde=[]
-jours=100
-
-def population (nH):
-    for x in range(0,nH):
-        Monde.append("S")
+humains=10000
+jours=40
 
 def liste_moustiques_jour (nM,j):
 #liste des jours de naissance de nM moustiques
@@ -43,6 +39,9 @@ def liste_humains_etat (nH,etat):
         L.append(etat)
     return L
 
+def affiche_population ():
+    print(liste_humains_etat(humains,"S"))
+
 def esperance_moustique (jour_de_naissance,j):
     return (jour_de_naissance+19+15==j)
 
@@ -64,6 +63,26 @@ def nb_pique (listeM):
         if (adulte):
             res=res+1
     return res
+
+def surmortalite_jour (listeMj,listeMa,nM):
+#on suppose que toute la population utilise des insecticides
+#soit 37% de moustiques tues /jour
+    M=math.floor(0.37*nM)
+    for i in range (0,len(listeMj)):
+        if(listeMa[i]) and (M!=0):
+            listeMj[i]=1010
+            M=M-1
+    return listeMj
+
+def surmortalite_adulte (listeMj,listeMa,nM):
+#on suppose que toute la population utilise des insecticides
+#soit 37% de moustiques tues /jour
+    M=math.floor(0.37*nM)
+    for i in range (0,len(listeMj)):
+        if(listeMj[i]==1010) and (M!=0):
+            listeMa[i]=False
+            M=M-1
+    return listeMa
 
 def malade_jour (listeHj,listeHe,nbPiqure,j):
     n=0
@@ -94,20 +113,26 @@ def fonction():
     LMA=liste_moustiques_adulte(moustiques)
     LHJ=liste_humains_jour(humains,1)
     LHE=liste_humains_etat(humains,"S")
-    for jour in (1,jours+1):
+    for jour in range (1,jours+1):
+
         for i in range (0,len(LMJ)):
             #transformation
             if (LMJ[i]+19==jour):
-                adulte=True
+                LMA[i]=True
 
             #natalite
             if (LMA[i]):
                 LMA=natalite_moustique_adulte(LMA)
                 LMJ=natalite_moustique_jour(jour,LMJ)
+
             #esperance
             if (esperance_moustique(LMJ[i],jour)):
                 LMJ[i]=999
                 LMA[i]=False
+
+        #surmortalite
+        LMJ=surmortalite_jour(LMJ,LMA,moustiques)
+        LMA=surmortalite_adulte(LMJ,LMA,moustiques)
 
         #nbPiqure
         piqure=nb_pique(LMA)
@@ -120,7 +145,6 @@ def fonction():
                     LHJ[i]=jour
                 n=n+1
 
-            for i in range (0,len(LHJ)):
                 #immunite
                 if (immunite(jour,LHJ[i])):
                     LHE[i]="I"
@@ -133,6 +157,5 @@ def fonction():
 
     print(LHE)
 
-population(humains)
-print(Monde)
+affiche_population()
 fonction()
