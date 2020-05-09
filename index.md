@@ -1,7 +1,6 @@
 # L'éradication du paludisme
 
-Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
-Notre projet a pour objectif de déterminer le pourcentage de moustiques qu’il faut éliminer afin d'éradiquer le paludisme. 
+Notre projet a pour objectif de déterminer le pourcentage de moustiques qu’il faut éliminer afin d'éradiquer le paludisme. Nous avons essayer de programmer une fonction codée en python, afin de vérifier si notre hypothèse était correcte.
 
 ## Malaria eradication
 
