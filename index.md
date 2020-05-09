@@ -4,7 +4,7 @@ Notre projet a pour objectif de déterminer le pourcentage de moustiques qu’il
 
 ## Malaria eradication
 
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
+The goal of our project is to determine the percentage of mosquitoes that must be eliminated in order to eradicate malaria. We tried to program a function coded in python, to check if our hypothesis was correct.
 
 ## Présentation de l'équipe
 
